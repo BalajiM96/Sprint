@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="hlAmt" value="100000"/>
+  <parameter name="hlCity" value="Hyderabad,Andhra Pradesh"/>
+  <parameter name="" value="magicsbricks456@gmail.com"/>
+  <parameter name="" value=""/>
+  <parameter name="" value=""/>
+  <parameter name="" value=""/>
+  <parameter name="" value=""/>
+  	<classes>
+  		<class name="Pages.MGHomeLoanPF"/>
+  	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
